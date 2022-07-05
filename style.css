@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0% 0%;
+
 }
 
 h1 {
@@ -17,18 +17,18 @@ h2 {
 
 .half-width {
     width: 50%;
-    padding: 5%;
+    padding: 5px;
 }
 
 .another-half {
     width: 50%;
-    padding: 5%;
+    padding: 5px;
 
 }
 
-section {
+.flexible {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 100ppx;
 }
 
 .link-button {
@@ -47,13 +47,12 @@ section {
 
 .second-half {
     width: 50%;
-    padding: 5%;
+    padding: 5px;
 }
 
 .another-second-half {
     width: 50%;
-    height: 0 px;
-    padding: 5%;
+    padding: 5px;
 
 }
 
@@ -62,4 +61,41 @@ section {
     background-repeat: no-repeat;
     background-position: right;
     background-size: 80px;
+}
+
+.pro {
+    color: orange;
+}
+
+.last-half {
+    box-shadow: 10px 10px 40px rgba(83, 65, 65, 0.534);
+    width: 50%;
+    margin: 5%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-left: 7px solid orange;
+    border-right: 7px solid orange;
+
+}
+
+.final-half {
+
+    box-shadow: 10px 10px 40px rgba(83, 65, 65, 0.534);
+    width: 50%;
+    margin: 5%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-left: 7px solid blue;
+    border-right: 7px solid blue;
+
+}
+
+.third-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-image: left;
+}
+
+footer p {
+    text-align: center;
 }
