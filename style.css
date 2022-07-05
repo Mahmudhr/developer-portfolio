@@ -7,22 +7,28 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .Colored {
     color: orange;
 }
 
 .half-width {
     width: 50%;
-    padding: 2%;
+    padding: 5%;
 }
 
 .another-half {
     width: 50%;
     padding: 5%;
+
 }
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .link-button {
@@ -37,4 +43,23 @@ section {
 .first-section {
     background-image: url(images/first-section.png);
     background-repeat: no-repeat;
+}
+
+.second-half {
+    width: 50%;
+    padding: 5%;
+}
+
+.another-second-half {
+    width: 50%;
+    height: 0 px;
+    padding: 5%;
+
+}
+
+.second-section {
+    background-image: url(images/bg2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
 }
